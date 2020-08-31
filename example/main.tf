@@ -3,7 +3,8 @@ provider "google" {
 }
 
 module "gke" {
-  source       = "../"
+  source       = "geekbass/gke/google"
+  version      = "~> 0.0.1"
   cluster_name = "gke-cluster-001"
   region       = "us-west1"
   labels = {

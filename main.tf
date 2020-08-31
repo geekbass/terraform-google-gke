@@ -11,7 +11,7 @@
 *
 * ```hcl
 * module "gke" {
-*  source                 = "geekbass/terraform-google-gke"
+*  source                 = "geekbass/gke/google"
 *  version                = "~> 0.0.1"
 *  cluster_name           = "gke-cluster"
 *  region                 = "us-west-1"
